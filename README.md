@@ -16,8 +16,8 @@ Setup:
 Testing:
 The commands supported by the files are below, alongside the expected input format.
 
-1. get <key> &emsp; &emsp; &emsp;# Return the value associated with the key or null if the key doesn’t exist.
-2. put <key> <value> &emsp; &emsp; &emsp;       # Will create a new key with the provided value or update the value of a key
+1. get [key] &emsp; &emsp; &emsp;# Return the value associated with the key or null if the key doesn’t exist.
+2. put [key] [value] &emsp; &emsp; &emsp;       # Will create a new key with the provided value or update the value of a key
 3. begin_transact&emsp; &emsp; &emsp;          # Initiates a transaction
 4. commit&emsp; &emsp; &emsp;                  # Commits actions made during a transaction
 5. rollback&emsp; &emsp; &emsp;                # Erases any changes that were going to be made by a transaction
